@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Buku Tamu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">RESTY INDRIYANI SM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Artikel.html">Tentang Saya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Buku tamu.html">Layanan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Jadwal kuliah.html">Jadwal</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container mt-5">
+        <h2 class="text-center">Form Buku Tamu</h2>
+        <form>
+            <div class="form-group">
+                <label for="nama_lengkap">Nama Lengkap:</label>
+                <input type="text" class="form-control" id="nama_lengkap" name="nama_lengkap" size="40">
+            </div>
+
+            <div class="form-group">
+                <label>Jenis Kelamin:</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="laki-laki" value="L" checked>
+                    <label class="form-check-label" for="laki-laki">Laki-laki</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="perempuan" value="P">
+                    <label class="form-check-label" for="perempuan">Perempuan</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat Tinggal:</label>
+                <input type="text" class="form-control" id="alamat" name="alamat" size="40">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" size="40">
+            </div>
+
+            <div class="form-group">
+                <label>Aktif pada Sosial Media:</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="facebook" value="Ya" checked>
+                    <label class="form-check-label">Facebook</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="twitter" value="Ya">
+                    <label class="form-check-label">Twitter</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="instagram" value="Ya">
+                    <label class="form-check-label">Instagram</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="path" value="Ya">
+                    <label class="form-check-label">Path</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="info">Mengetahui Web Ini Dari:</label>
+                <select class="form-control" id="info" name="info">
+                    <option selected="select">-= Pilih =-</option>
+                    <option value="web">Web</option>
+                    <option value="surat kabar">Surat Kabar</option>
+                    <option value="teman kerabat">Teman/Kerabat</option>
+                    <option value="browsing internet">Browsing Internet</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea class="form-control" id="pesan" name="pesan" cols="40"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+    <div class="container text-center mt-4">
+        <a href="index.html" class="btn btn-primary">Beranda</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
